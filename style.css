@@ -144,7 +144,7 @@ body {
         display: block;
         margin: 0 auto;
         float: left;
-        box-shadow: 6.5em 4em 0px #121212;
+        box-shadow: 100% 4em 0px #121212;
     }
     
     .about {
