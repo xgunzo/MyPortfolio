@@ -6,20 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Michał Chmiel - Portfolio</title>
+    <script src="js/app.js"></script>
 </head>
 
 <body>
 
 
     <div class="wrapper-background">
-        <div class="background">
+        <div id="background">
             <div class="wrapper">
                 <div class="navbar">
                     <h1>HOME</h1>
-                    <div class="menu-button">
+                    <div class="menu-button" id="menu_button_display">
                         <img src="images/menu.svg" id="menu-button">
                     </div>
-                    <div class="navbar menu">
+                    <div class="navbar menu" id="menu">
+                        <div id="menu-button-on">
+                            <img src="images/menu.svg" class="menu-button-on">
+                        </div>
                         <li><a href="#">O mnie</a></li>
                         <li><a href="#">Moje prace</a></li>
                         <li><a href="#">Kontakt</a></li>
