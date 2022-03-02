@@ -7,6 +7,7 @@ window.onload = function() {
     let menu_display = document.getElementById("menu");
     let background = document.getElementById("background");
 
+
     button.addEventListener("click", function() {
         menu_button_display.style.display = "none";
         menu_display.style.display = "flex";
@@ -20,6 +21,5 @@ window.onload = function() {
         menu_button_on.style.display = "none";
         background.style.backgroundColor = "#e1dfde";
     })
-
 
 }

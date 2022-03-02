@@ -12,6 +12,7 @@ body {
     background-color: #e1dfde;
     height: 100vh;
     margin: 1.2em 0;
+    animation: fadeIn 0.5s;
 }
 
 .wrapper-background {
@@ -68,27 +69,38 @@ body {
     position: absolute;
     width: 100%;
     left: 0;
-    top: 1em;
+    top: 0em;
     height: 100vh;
     align-items: center;
     flex-direction: column;
+    justify-content: flex-start;
     margin: 0 auto;
-    gap: 0.5em;
     font-size: 16px;
     animation: fadeIn 0.5s;
 }
 
+.menu li {
+    padding-top: 6em;
+    list-style: none;
+    font-size: 26px;
+    font-family: 'Cinzel', serif;
+}
+
 .menu a {
-    
     text-decoration: none;
     color: #eee;
 }
 
-.menu li {
-    list-style: none;
-    margin-top: 7em;
-    font-size: 26px;
-    font-family: 'Cinzel', serif;
+.line {
+    width: 80%;
+    height: 1em;
+    background-color: #eee;
+    transition: ease-in-out 0.2s;
+}
+
+li:hover + .line {
+    width: 40%;
+    transition: ease-in-out 0.5s;
 }
 
 .menu-button-on {
@@ -120,6 +132,7 @@ body {
 
 .picture {
     padding-top: 2em;
+    height: 60%;
 }
 
 .profile-picture {
@@ -139,9 +152,9 @@ body {
 
 .footer {
     position: fixed;
-    bottom: 0;
+    bottom: -1em;
     width: 100%;
-    height: 1em;
+    height: 2em;
     background-color: #121212;
 }
 
@@ -193,13 +206,209 @@ body {
         margin: 0 auto;
         width: 90%;
     }
+
+
+}
+
+@media screen and (min-width: 460px) {
+
+    .menu {
+        display: none;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 0 auto;
+        gap: 0.5em;
+        font-size: 16px;
+    }
+
+    .menu-button-on {
+        background-color: #eee;
+        position: absolute;
+        right: 2.75em;
+        top: 2.5em;
+        width: 20px;
+        height: 20px;
+    }
     
-    .footer {
-        position: fixed;
-        bottom: 0;
+    .container {
+        display: block;
+        margin: 0 auto;
+        padding-top: 2em;
+        text-transform: uppercase;
+        font-family: 'Cinzel', serif;
+        font-weight: 600;
+        height: 30rem;
+    }
+    
+    .header-text {
+        text-align: left;
+        padding-left: 0em;
+    }
+    
+    .picture {
+        padding-top: 3em;
+    }
+    
+    .profile-picture {
+        display: block;
+        margin: 0 auto;
+        float: left;
+        padding-left: 0em;
+        box-shadow: 8.75em 4em 0px #121212;
+    }
+    
+    .about {
+        padding: 2em 0;
+        font-family: 'Cormorant Infant', serif;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: left;
+        margin: 0 auto;
         width: 100%;
-        height: 1em;
-        background-color: #121212;
+    }
+
+    .footer {
+        height: 2em;
+    }
+
+}
+
+@media screen and (min-width: 560px) {
+
+    .menu-button-on {
+        background-color: #eee;
+        position: absolute;
+        right: 2.75em;
+        top: 2.5em;
+        width: 20px;
+        height: 20px;
+    }
+    
+    .container {
+        display: block;
+        margin: 0 auto;
+        padding-top: 2em;
+        text-transform: uppercase;
+        font-family: 'Cinzel', serif;
+        font-weight: 600;
+        height: 32rem;
+    }
+    
+    .header-text {
+        text-align: left;
+        padding-left: 0em;
+    }
+
+    
+    .picture {
+        padding-top: 5em;
+    }
+    
+    .profile-picture {
+        display: block;
+        margin: 0 auto;
+        float: left;
+        padding-left: 3em;
+        box-shadow: 8em 3em 0px #121212;
+    }
+
+    .about {
+        padding: 2em 0;
+    }
+
+    .about p {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width: 660px) {
+
+    .navbar h1 {
+        font-size: 26px;
+    }
+
+    .menu-button-on {
+        background-color: #eee;
+        position: absolute;
+        right: 2.75em;
+        top: 2.5em;
+        width: 30px;
+        height: 30px;
+    }
+
+    #menu-button {
+        color: #121212;
+        width: 30px;
+        height: 30px;
+        align-self: center;
+        justify-content: flex-end;
+    }
+    
+    .container {
+        display: block;
+        margin: 0 auto;
+        padding-top: 2em;
+        text-transform: uppercase;
+        font-family: 'Cinzel', serif;
+        font-weight: 600;
+        height: 32rem;
+    }
+    
+    .header-text {
+        text-align: left;
+        padding-left: 0em;
+    }
+    
+    .profile-picture {
+        padding-left: 5.5em;
+    }
+
+    .about p {
+        font-size: 22px;
+    }
+
+}
+
+@media screen and (min-width: 760px) {
+
+    .menu-button-on {
+        right: 4.5em;
+    }
+
+    .profile-picture {
+        padding-left: 5em;
+        box-shadow: 14em 3em 0px #121212;
+    }
+
+    .about p {
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (min-width: 860px) {
+
+    .menu-button-on {
+        right: 5.25em;
+    }
+
+    .profile-picture {
+        padding-left: 7em;
+        box-shadow: 15em 3em 0px #121212;
+    }
+
+}
+
+@media screen and (min-width: 960px) {
+
+    .menu-button-on {
+        right: 5.5em;
+    }
+
+    .profile-picture {
+        padding-left: 9em;
+        box-shadow: 17em 3em 0px #121212;
     }
 
 }
