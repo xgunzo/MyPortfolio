@@ -1,0 +1,57 @@
+
+#background {
+    height: 100%;
+}
+
+#menu_button_display {
+    display: flex;
+    margin: 0 auto;
+    width: 60%;
+    justify-content: flex-end;
+}
+
+.profile-picture {
+    box-shadow: none;
+    padding-top: 3em;
+    float: none;
+}
+
+.container {
+    padding-top: 3em;
+    height: 30rem;
+}
+
+.about {
+    display: flex;
+    padding-top: 4em;
+}
+
+.gg-arrow-down {
+    margin: 0 auto;
+    align-self: center;
+    float: left;
+}
+
+.about h1 {
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.about-me-2 {
+    padding: 2em 0;
+    font-family: 'Cinzel', serif;
+}
+
+.about-me-2 h1 {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about-me-2 p:first-child {
+    padding-top: 2em;
+}
+
+.about-me-2 p{
+    padding-top: 1em;
+}

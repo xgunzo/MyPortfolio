@@ -1,0 +1,32 @@
+#background {
+    height: 100%;
+}
+
+.navbar h1 {
+    width: 50%;
+}
+#menu_button_display {
+    width: 40%;
+}
+
+.container {
+    height: auto;
+}
+
+.websites {
+    margin: 0 auto;
+    display: grid;
+    width: 100%;
+    padding-top: 3em;
+}
+
+.websites img {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    padding: 3em 0;
+}
+
+.footer {
+    left: 0;
+}
