@@ -17,14 +17,28 @@
     margin: 0 auto;
     display: grid;
     width: 100%;
-    padding-top: 3em;
+    padding: 2em 0;
+}
+
+.websites h1 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
 }
 
 .websites img {
     margin: 0 auto;
     display: block;
     width: 100%;
-    padding: 3em 0;
+    padding: 1em 0;
+}
+
+.websites p {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    text-transform: none;
 }
 
 .footer {
