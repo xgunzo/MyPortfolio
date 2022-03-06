@@ -6,6 +6,7 @@ window.onload = function() {
     let menu_button_on = document.getElementById("menu-button-on");
     let menu_display = document.getElementById("menu");
     let background = document.getElementById("background");
+    let websites = document.getElementById("websites");
 
 
     button.addEventListener("click", function() {
@@ -13,6 +14,7 @@ window.onload = function() {
         menu_display.style.display = "flex";
         menu_button_on.style.display = "block";
         background.style.backgroundColor = "#121212";
+        websites.style.display = "none";
     })
 
     button2.addEventListener("click", function() {
@@ -20,6 +22,7 @@ window.onload = function() {
         menu_display.style.display = "none";
         menu_button_on.style.display = "none";
         background.style.backgroundColor = "#e1dfde";
+        websites.style.display = "grid";
     })
 
 }
