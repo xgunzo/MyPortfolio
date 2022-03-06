@@ -1,0 +1,36 @@
+.container {
+    padding: 3em 0;
+}
+
+.container h1 {
+    font-size: 22px;
+    text-align: center;
+}
+
+.contact-links {
+    list-style: none;
+    text-align: center;
+    padding-top: 4em;
+}
+
+.contact-links li {
+    padding: 2em 0;
+}
+
+.contact-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.contact-links img {
+    padding-right: 1em;
+}
+
+.frontendmentor {
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.footer {
+    left: 0;
+}
