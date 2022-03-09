@@ -10,6 +10,10 @@
     justify-content: flex-end;
 }
 
+.picture .desktop {
+    display: none;
+}
+
 .profile-picture {
     box-shadow: none;
     padding-top: 3em;
@@ -17,13 +21,12 @@
 }
 
 .container {
-    padding-top: 3em;
-    height: 30rem;
+    padding: 3em 0;
+    height: 100%;
 }
 
 .about {
     display: flex;
-    padding-top: 4em;
 }
 
 .gg-arrow-down {
@@ -54,4 +57,47 @@
 
 .about-me-2 p{
     padding-top: 1em;
+}
+
+@media screen and (min-width: 600px) {
+
+    #menu_button_display {
+        width: 75%;
+    }
+
+    .container {
+        padding: 2em 0;
+    }
+  
+    .picture .mobile {
+        display: none;
+    }
+
+    .picture .desktop {
+        display: block;
+    }
+
+    .picture {
+        padding: 2em 0;
+        height: 100%;
+    }
+
+    .profile-picture {
+        margin: 0 auto;
+        display: block;
+        padding: 2em 0;
+    }
+
+    .about {
+        padding-top: 0;
+    }
+
+    .about h1 {
+        width: 95%;
+    }
+
+    .gg-arrow-down {
+        width: 5%;
+    }
+
 }

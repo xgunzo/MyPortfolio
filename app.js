@@ -1,12 +1,13 @@
 window.onload = function() {
 
     let button = document.getElementById("menu-button");
-    let button2 = document.getElementById("menu-button-on")
+    let button2 = document.getElementById("menu-button-on");
     let menu_button_display = document.getElementById("menu");
     let menu_button_on = document.getElementById("menu-button-on");
     let menu_display = document.getElementById("menu");
     let background = document.getElementById("background");
     let websites = document.getElementById("websites");
+
 
 
     button.addEventListener("click", function() {

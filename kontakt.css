@@ -10,7 +10,7 @@
 .contact-links {
     list-style: none;
     text-align: center;
-    padding-top: 4em;
+    padding-top: 5em;
 }
 
 .contact-links li {
@@ -33,4 +33,10 @@
 
 .footer {
     left: 0;
+}
+
+@media screen and (min-width: 600px) {
+    .contact-links {
+        padding-top: 7em;
+    }
 }

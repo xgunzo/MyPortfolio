@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Michał Chmiel - Portfolio</title>
-    <script src="app.js"></script>
+    
 </head>
 
 <body>
@@ -37,14 +37,19 @@
 
                 <div class="container">
                     <div class="header-text">
-                        <h1>Cześć,</h1>
-                        <h1>Jestem Michał!</h1>
+                        <h1>Front-End</h1>
+                        <h1>Developer</h1>
                     </div>
                     <div class="picture">
-                        <img src="images/profile_picture_mobile2.png" class="profile-picture">
+                        <img src="images/profile_picture_mobile2.png" class="profile-picture mobile">
+                        <img src="images/profile_picture.png" class="profile-picture desktop">
                     </div>
                 </div>
-                <div class="about">
+                    <div class="name" id="name">
+                        <a href="#about" id="arrowdown"><img src="images/arrow-down.png" class="arrow-down"></a>
+                        <h1>Michał<br>Chmiel</h1>
+                    </div>
+                <div class="about" id="about">
                     <p>Jestem ambitną i kreatywną osobą, która lubi przelewać swoje pomysły na papier. Tematyka
                         tworzenia stron WWW jest mi znana już od
                         dłuższego czasu a zdobywanie nowej wiedzy nie jest mi całkowicie straszne! Zapraszam do
@@ -56,6 +61,7 @@
 
             </div>
         </div>
+        <script src="app.js"></script>
 </body>
 
 </html>

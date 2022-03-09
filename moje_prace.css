@@ -41,6 +41,14 @@
     text-transform: none;
 }
 
+.websites .mobile {
+    display: none;
+}
+
+.websites .desktop {
+    display: block;
+}
+
 .footer {
     left: 0;
 }
