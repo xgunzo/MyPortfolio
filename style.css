@@ -546,4 +546,8 @@ li:hover+.line {
         padding: 3em 0;
     }   
 
+    .footer {
+        height: 2.5em;
+    }
+
 }

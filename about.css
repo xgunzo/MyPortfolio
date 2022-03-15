@@ -101,3 +101,63 @@
     }
 
 }
+
+@media screen and (min-width: 1024px) {
+
+    #menu_button_display {
+        width: 100%;
+    }
+
+    .navbar h1 {
+        width: 30%;
+    }
+
+    .container {
+        padding: 2em 0;
+    }
+
+    .container h1 {
+        line-height: 10px;
+    }
+  
+    .picture .mobile {
+        display: none;
+    }
+
+    .picture .desktop {
+        display: block;
+    }
+
+    .picture {
+        padding: 3em 0;
+        height: 80%;
+    }
+
+    .picture img {
+        height: 30%;
+        width: 30%;
+    }
+
+    .profile-picture img{
+        height: 2em;
+        width: 20px;
+    }
+
+    .about {
+        padding-top: 1.5em;
+        padding-bottom: 0;
+    }
+
+    .about h1 {
+        width: 100%;
+    }
+
+    .gg-arrow-down {
+        width: 5%;
+    }
+
+    .about-me-2 {
+        padding: 9.5em 5em;
+    }
+
+}

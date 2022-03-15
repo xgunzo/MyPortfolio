@@ -40,3 +40,10 @@
         padding-top: 7em;
     }
 }
+
+@media screen and (min-width: 1024px) {
+
+    #background {
+        height: 100vh;
+    }
+}
