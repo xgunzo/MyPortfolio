@@ -101,3 +101,58 @@
     }
 
 }
+
+@media screen and (min-width: 1280px) {
+    .navbar h1 {
+        width: 30%;
+    }
+
+    #menu_button_display {
+        width: 70%;
+    }
+
+    .container {
+        padding-top: 1em;
+    }
+
+    .websites {
+        padding: 3em 0;
+    }
+
+    .websites:first-child {
+        padding: 1em 0;
+    }
+
+    .websites img {
+        padding: 3em 0;
+    }
+
+    .websites a {
+        height: 50%;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+
+    .websites h1 {
+        font-size: 26px;
+        padding-bottom: 1em;
+    }
+
+    .websites p {
+        font-size: 20px;
+        text-align: center;
+        line-height: 30px;
+        width: 85%;
+        padding-top: 1em;
+        margin: 0 auto;
+    }
+
+}
+
+
+@media screen and (min-width: 1440px) {
+
+    /* ZRÓB GRIDA */
+
+}

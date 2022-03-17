@@ -1,5 +1,10 @@
+#background {
+    height: 100%;
+}
+
 .container {
     padding: 3em 0;
+    height: 10%;
 }
 
 .container h1 {
@@ -10,7 +15,7 @@
 .contact-links {
     list-style: none;
     text-align: center;
-    padding-top: 5em;
+    padding: 4.5em 0;
 }
 
 .contact-links li {
@@ -32,7 +37,15 @@
 }
 
 .footer {
+    height: 2em;
     left: 0;
+    width: 100%;
+}
+
+/* IPHONE XR */
+
+@media screen and (min-width: 414px) and (min-height: 896px) {
+
 }
 
 @media screen and (min-width: 600px) {

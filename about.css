@@ -161,3 +161,28 @@
     }
 
 }
+
+@media screen and (min-width: 1280px) {
+    .container {
+        padding: 0.5em 0;
+    }
+
+    .picture {
+        padding: 2.75em 0;
+    }
+
+    .about {
+        padding: 0;
+    }
+
+    .about-me-2 { 
+        padding: 9.75em; 
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    /*PRAWDOPODOBNIE SAM TEKST, OBSZERNIEJ O SOBIE*/
+
+}
