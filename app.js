@@ -8,8 +8,6 @@ window.onload = function() {
     let menu_button_on = document.getElementById("menu-button-on");
     let menu_display = document.getElementById("menu");
     let background = document.getElementById("background");
-    let aboutContainer = document.getElementById("about-container");
-
     let off = document.getElementById("off");
 
     button.addEventListener("click", function() {
@@ -18,7 +16,6 @@ window.onload = function() {
         menu_button_on.style.display = "block";
         background.style.backgroundColor = "#212327";
         off.style.display = "none";
- 
     })
 
     button2.addEventListener("click", function() {
@@ -26,7 +23,6 @@ window.onload = function() {
         menu_display.style.display = "none";
         menu_button_on.style.display = "none";
         background.style.backgroundColor = "#e1dfde";
-
         off.style.display = "block";
         aboutContainer.style.display = "";
         })
@@ -56,5 +52,37 @@ window.onload = function() {
         console.log(counter);
 
     })
+
+    //scroll-bar
+
+    let scroll1 = document.getElementById("scroll1");
+    let scroll2 = document.getElementById("scroll2");
+    let scroll3 = document.getElementById("scroll3");
+    let s1 = document.getElementById("s1");
+    let s2 = document.getElementById("s2");
+    let s3 = document.getElementById("s3");
+    let aboutContainer = document.getElementById("about-container");
+
+    function isInViewport(element) {
+        const rect = element.getBoundingClientRect();
+        return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+    }
+
+    aboutContainer.addEventListener("scroll", function() {
+        if(isInViewport(s1) === true) {
+            scroll1.style.backgroundColor= "scale(1.3)";
+        } else if ( isInViewport(s2) === true) {
+            scroll2.style.transform = "scale(1.3)";
+        } else if ( isInViewport(s3) === true) {
+            scroll3.style.transform = "scale(1.3)";
+        }
+    })
+
+   
 
 }
