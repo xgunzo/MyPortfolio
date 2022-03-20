@@ -153,6 +153,46 @@
 
 @media screen and (min-width: 1440px) {
 
-    /* ZRÓB GRIDA */
+    .container {
+        padding: 4em 0;
+    }
+
+    .websites:first-child {
+        padding: 0;
+    }
+
+    .websites {
+        padding: 0;
+    }
+
+    .websites img {
+        padding: 0;
+        margin: auto;
+        transition: ease-in-out 0.5s;
+        box-shadow: 0px 0px 30px -5px #333;
+    }
+
+    .websites img:hover {
+        transform: scale(0.9);
+        transition: ease-in-out 0.5s;
+    }
+
+    .websites h1 {
+        display: none;
+    }
+
+    .websites p {
+        display: none;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        column-gap: 3em;
+        row-gap: 4em;
+        margin-top: 2em;
+        width: 80%;
+    }
 
 }

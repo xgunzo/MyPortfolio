@@ -580,6 +580,19 @@ li:hover+.line {
 
     /* ROZDZIEL NAPISY, WIĘCEJ TEKSTU */
 
+    .menu-button-on {
+        right: 4.5em;
+        top: 3.5em;
+    }
+
+    .menu {
+        padding: 0em;
+    }
+
+    .menu li {
+        padding-top: 4em;
+    }
+
     .wrapper-background {
         width: 95%;
     }
@@ -632,6 +645,7 @@ li:hover+.line {
 
     .about p {
         font-size: 22px;
+        line-height: 30px
     }
 
 }

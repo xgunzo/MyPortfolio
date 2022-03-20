@@ -25,6 +25,7 @@
 .contact-links a {
     text-decoration: none;
     color: #333;
+    font-family: Cinzel, serif;
 }
 
 .contact-links img {
@@ -59,4 +60,26 @@
     #background {
         height: 100vh;
     }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    .container h1 {
+      font-size: 28px;
+    }
+
+    .contact-links {
+        padding-top: 3em;
+        padding-bottom: 0em;
+    }
+
+    .contact-links li a {
+        font-size: 24px;
+    }
+
+    .footer {
+        height: 2.5em;
+    }
+
 }

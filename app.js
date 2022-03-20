@@ -8,6 +8,7 @@ window.onload = function() {
     let menu_button_on = document.getElementById("menu-button-on");
     let menu_display = document.getElementById("menu");
     let background = document.getElementById("background");
+    let aboutContainer = document.getElementById("about-container");
 
     let off = document.getElementById("off");
 
@@ -17,6 +18,7 @@ window.onload = function() {
         menu_button_on.style.display = "block";
         background.style.backgroundColor = "#212327";
         off.style.display = "none";
+ 
     })
 
     button2.addEventListener("click", function() {
@@ -26,6 +28,7 @@ window.onload = function() {
         background.style.backgroundColor = "#e1dfde";
 
         off.style.display = "block";
+        aboutContainer.style.display = "";
         })
 
     //arrow
