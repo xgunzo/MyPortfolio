@@ -86,7 +86,7 @@ html {
 
 .section {
     text-align: center;
-    height: 100vh;
+    height: 70vh;
 }
 
 .about-1 p {
@@ -119,7 +119,11 @@ html {
 
 @media screen and (min-width: 414px) {
     .container {
-        padding-bottom: 11em;
+        padding-bottom: 3em;
+    }
+
+    .section:first-child {
+        margin-top: 50%;
     }
 }
 
