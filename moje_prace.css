@@ -13,6 +13,8 @@
 .container {
     height: auto;
     width: 80%;
+    padding-top: 0;
+    padding-bottom: 5em;
 }
 
 .navigation {
@@ -41,14 +43,24 @@
 }
 
 .grid {
-    gap: 0;
+    gap: 5em;
+}
+
+.grid h1 {
+    position: relative;
+    top: 30%;
+}
+
+.grid img {
+    position: relative;
+    top: 10%;
 }
 
 .websites {
     margin: 0 auto;
     display: grid;
     width: 100%;
-    padding: 2em 0;
+    padding: 0;
 
 }
 
@@ -192,7 +204,7 @@
 
     .container {
         padding: 4em 0;
-    }
+    } 
 
     .websites:first-child {
         padding: 0;
@@ -200,6 +212,11 @@
 
     .websites {
         padding: 0;
+        height: 100%
+    }
+
+    .grid center {
+        height: 0%;
     }
 
     .websites img {
@@ -230,6 +247,7 @@
         row-gap: 4em;
         margin-top: 2em;
         width: 80%;
+        height: 100%;
     }
 
 }
