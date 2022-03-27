@@ -38,8 +38,12 @@
     list-style: none;
 }
 
+.websites:first-child{
+    margin-top: 30%;
+}
+
 .section {
-    height: 80vh;
+    height: 100vh;
 }
 
 .grid {

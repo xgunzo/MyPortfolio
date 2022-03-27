@@ -477,6 +477,26 @@ li:hover+.line {
 
 }
 
+@media screen and (min-width: 768px) and (min-height: 900px) {
+
+    .square {
+        top: 50%;
+    }
+
+    .picture {
+        padding-top:8em;
+    }
+
+    .name {
+        padding-top: 8em;
+    }
+
+    .about {
+        padding: 12em 0;
+    }
+
+}
+
 @media screen and (min-width: 860px) {
 
     .square {
@@ -527,7 +547,7 @@ li:hover+.line {
     }
 
     .navbar h1 {
-        font-size: 28px;
+        font-size: 36px;
     }
 
     .wrapper-background {
@@ -578,7 +598,10 @@ li:hover+.line {
         display: block;
     }
     
-
+    .profile-picture {
+        height: 70%;
+        padding: 5em 0;
+    }
     
 
     .name {
@@ -611,6 +634,21 @@ li:hover+.line {
 
 }
 
+@media screen  and (min-width: 1024px) and (height: 900px) {
+    
+    .square {
+        top: 50%;
+    }
+
+    .profile-picture {
+        padding-top: 6em;
+    }
+
+    .name {
+        padding-top: 8em;
+    }
+
+}
 
 @media screen and (min-width: 1280px) {
 
@@ -634,13 +672,39 @@ li:hover+.line {
 
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1366px) and (min-height: 768px) {
 
-    /* ROZDZIEL NAPISY, WIĘCEJ TEKSTU */
 
     .menu-button-on {
-        right: 4.5em;
-        top: 3.5em;
+        top: 2em;
+    }
+
+    .square {
+        top: 40%;
+        left: -40%;
+    }
+
+    .profile-picture {
+        padding: 4em 0;
+        height: 70%;
+    }
+
+    .name {
+        padding-top: 4em;
+    }
+
+    .about {
+        padding-top: 7em;
+        padding-bottom: 12em;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+
+    .menu-button-on {
+        top: 2em;
     }
 
     .menu {
@@ -681,12 +745,20 @@ li:hover+.line {
         height: 100%;
     }
 
+    .square {
+        width: 280px;
+        height: 256px;
+        top: 30%;
+        left: -45%;
+    }
+
     .profile-picture {
-        padding: 2em 0;
+        padding: 3em 0;
+        height: 80%;
     }
     
     .name {
-        padding-top: 1em;
+        padding-top: 4em;
     }
 
     .name h1 {
@@ -695,7 +767,7 @@ li:hover+.line {
     }
 
     .about {
-        padding-top: 10em;
+        padding-top: 7em;
         padding-bottom: 14em;
         width: 80%;
         text-align: center;
@@ -704,6 +776,93 @@ li:hover+.line {
     .about p {
         font-size: 22px;
         line-height: 30px
+    }
+
+}
+
+@media screen and (min-width: 1440px) and (min-height: 900px) {
+
+    .square {
+        top: 50%;
+    }
+
+    .profile-picture {
+        padding: 5em 0;
+    }
+
+    .name {
+        padding-top: 5em;
+    }
+
+    .about {
+        padding-top: 10em;
+        padding-bottom: 15em;
+    }
+
+    .about p {
+        font-size: 26px;
+    }
+
+}
+
+@media screen and (min-width: 1920px) {
+
+    .wrapper-background {
+        width: 96%;
+    }
+
+    .navbar h1 {
+        font-size: 42px;
+    }
+
+    #menu-button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .menu-button-on {
+        width: 40px;
+        height: 40px;   
+    }
+
+    .header-text h1 {
+        font-size: 52px;
+    }
+
+    .container {
+        padding-top: 0.5em;
+    }
+
+    .square {
+        width: 350px;
+        height: 320px;
+        top: 50%;
+    }
+
+    .profile-picture {
+        height: 100%;
+        padding: 3em 0;
+    }
+
+    .name {
+        padding-top: 7em;
+    }
+
+    .name h1 {
+        font-size: 52px;
+        line-height: 35px;
+    }
+
+    .name img {
+        transform: scale(1.5);
+    }
+
+    #background {
+        margin: 2em 0;
+    }
+
+    .footer {
+        height: 3em;
     }
 
 }
