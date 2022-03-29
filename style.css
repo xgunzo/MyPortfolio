@@ -825,6 +825,10 @@ li:hover+.line {
         height: 40px;   
     }
 
+    .menu li {
+        font-size: 32px;
+    }
+
     .header-text h1 {
         font-size: 52px;
     }
@@ -855,6 +859,10 @@ li:hover+.line {
 
     .name img {
         transform: scale(1.5);
+    }
+
+    .about {
+        padding-top: 14em;
     }
 
     #background {

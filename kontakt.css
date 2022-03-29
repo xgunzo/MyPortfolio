@@ -44,7 +44,6 @@
 }
 
 /* IPHONE XR */
-
 @media screen and (min-width: 414px) and (min-height: 896px) {
 
 }
@@ -58,20 +57,34 @@
 @media screen and (min-width: 1024px) {
 
     #background {
-        height: 100vh;
+        height: 94vh;
+    }
+
+    .container {
+        position: relative;
+    }
+
+    .contact-links {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        padding: 20%;
     }
 
 }
 
 @media screen and (min-width: 1440px) {
 
+    #background {
+        height: 94vh;
+    }
+    
     .container h1 {
       font-size: 28px;
     }
 
     .contact-links {
-        padding-top: 3em;
-        padding-bottom: 0em;
+        padding: 13% 10%;
     }
 
     .contact-links li a {
@@ -80,6 +93,26 @@
 
     .footer {
         height: 2.5em;
+    }
+
+}
+
+@media screen and (min-width: 1920px) {
+
+    body {
+        height: 90vh;
+    }
+
+    #background {
+        height: 95vh;
+    }
+
+    .contact-links {
+        padding: 10% 20%;
+    }
+
+    .footer {
+        height: 3em;
     }
 
 }

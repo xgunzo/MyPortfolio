@@ -46,6 +46,10 @@
     height: 100vh;
 }
 
+.desktop-websites {
+    display: none;
+}
+
 .grid {
     gap: 5em;
 }
@@ -207,8 +211,13 @@
 @media screen and (min-width: 1440px) {
 
     .container {
-        padding: 4em 0;
+        display: none;
     } 
+
+    .desktop-websites {
+        display: block;
+        position: relative;
+    }
 
     .websites:first-child {
         padding: 0;
@@ -217,10 +226,6 @@
     .websites {
         padding: 0;
         height: 100%
-    }
-
-    .grid center {
-        height: 0%;
     }
 
     .websites img {
@@ -243,7 +248,7 @@
         display: none;
     }
 
-    .grid {
+    .grid-desktop {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
