@@ -10,6 +10,8 @@ window.onload = function() {
     let background = document.getElementById("background");
     let off = document.getElementById("off");
     let navigation = document.querySelector(".navigation");
+    let navigationDesktop = document.querySelector(".navigation-desktop");
+    let flexContainer = document.querySelector(".flex");
 
     button.addEventListener("click", function() {
         menu_button_display.style.display = "none";
@@ -18,6 +20,8 @@ window.onload = function() {
         background.style.backgroundColor = "#212327";
         off.style.display = "none";
         navigation.style.display = "none";
+        navigationDesktop.style.display = "none";
+        flexContainer.style.display = "none";
     })
 
     button2.addEventListener("click", function() {
@@ -26,7 +30,16 @@ window.onload = function() {
         menu_button_on.style.display = "none";
         background.style.backgroundColor = "#e1dfde";
         off.style.display = "block";
+
+        if (window.innerWidth < 1024) {
         navigation.style.display = "block";
+        } else {
+            navigation.style.display = "none"; 
+            navigationDesktop.style.display = "block";
+            off.style.display = "none";
+            flexContainer.style.display = "flex";
+        }
+
         })
 
     //arrow
