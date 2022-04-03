@@ -858,7 +858,8 @@ li:hover+.line {
     }
 
     .name img {
-        transform: scale(1.5);
+        transform: scale(1.4);
+        margin-left: 0.4em;
     }
 
     .about {
